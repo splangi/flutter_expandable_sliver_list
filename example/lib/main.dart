@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   int _num = 1;
 
-  ExpandableSliverListController<int> _controller =
+  final ExpandableSliverListController<int> _controller =
       ExpandableSliverListController<int>();
 
   void _toggleList() {
